@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ad Performance Dashboard</title>
+</head>
+<body>
+    <h1>Ad Performance Dashboard</h1>
+
+    <form method="POST">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            {% for gender in genders %}
+                <option value="{{ gender }}">{{ gender }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="ad_type">Ad Type:</label>
+        <select name="ad_type" id="ad_type">
+            {% for ad_type in ad_types %}
+                <option value="{{ ad_type }}">{{ ad_type }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="location">Location:</label>
+        <select name="location" id="location">
+            {% for location in locations %}
+                <option value="{{ location }}">{{ location }}</option>
+            {% endfor %}
+        </select>
+
+        <input type="submit" value="Filter">
+    </form>
+
+    <h2>Average CTR by Ad Type</h2>
+    {{ ctr_ad_type|safe }}
+
+    <h2>Age vs. Clicks</h2>
+    {{ age_clicks|safe }}
+
+    <h2>Income Distribution</h2>
+    {{ income_hist|safe }}
+
+    <h2>Clicks over time</h2>
+    {{ clicks_time|safe }}
+
+    <h2>Average Conversion rate by location</h2>
+    {{ conversion_location|safe }}
+
+    <h2>Average CTR by Gender</h2>
+    {{ ctr_gender|safe }}
+
+</body>
+</html>
