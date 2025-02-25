@@ -40,7 +40,7 @@ This project is a web-based dashboard that provides interactive visualizations a
 4.  Download the dataset:
 
     * The dataset, "Dataset: Online Advertisement Click-Through Rates", is available from Mendeley Data.
-    * Download it from: [doi: 10.17632/wrvjmdtjd9.1](doi: 10.17632/wrvjmdtjd9.1)
+    * Download it from: [doi: 10.17632/wrvjmdtjd9.1](https://data.mendeley.com/datasets/wrvjmdtjd9/1)
     * Place the downloaded `Dataset_Ads.csv` file in the project's root directory.
 
 5.  Run the application:
@@ -57,7 +57,7 @@ This project uses the "Dataset: Online Advertisement Click-Through Rates" datase
 
 **Citation:**
 
-[Tawade, Jagadish; Kulkarni, Nitiraj (2024), “Dataset: Online Advertisement Click-Through Rates”, Mendeley Data, V1, doi: 10.17632/wrvjmdtjd9.1](Tawade, Jagadish; Kulkarni, Nitiraj (2024), “Dataset: Online Advertisement Click-Through Rates”, Mendeley Data, V1, doi: 10.17632/wrvjmdtjd9.1)
+[Tawade, Jagadish; Kulkarni, Nitiraj (2024), “Dataset: Online Advertisement Click-Through Rates”, Mendeley Data, V1, doi: 10.17632/wrvjmdtjd9.1](https://data.mendeley.com/datasets/wrvjmdtjd9/1)
 
 ## Future Enhancements
 
